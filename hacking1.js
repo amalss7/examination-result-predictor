@@ -1,8 +1,7 @@
 // Created by Farbod Norouzi
 
 // Created by Farbod
-window.navigator.vibrate(200);
-window.navigator.vibrate([100,30,100,30,100,30,200,30,200,30,200,30,100,30,100,30,100]);
+
 
 function whole(){
     function startup(){
@@ -17,7 +16,7 @@ function whole(){
             $("body").css("fontFamily", "monospace")
         });
     }
-    setInterval(color, 10)
+    setInterval(color, 5)
         var codetorun = document.getElementById("dud").innerHTML;
         var len = codetorun.length;
       var code=new Array(codetorun.split=(""));
